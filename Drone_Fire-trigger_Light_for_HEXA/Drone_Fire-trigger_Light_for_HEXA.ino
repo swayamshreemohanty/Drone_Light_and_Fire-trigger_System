@@ -3,6 +3,7 @@ int pwm_recv;
 int state = 0;
 int fire = 10;
 int i = 0;
+
 //int leds[6] = {7, 2, 3, 4, 5, 6};
 int LED1 = 2;
 int LED2 = 3;
@@ -11,6 +12,7 @@ int LED4 = 5;
 int LED5 = 6;
 int LED6 = 7;
 int fireCond = 0;
+
 void setup() {
   Serial.begin(9600);
   pinMode(pwm_pin, INPUT);
@@ -25,8 +27,8 @@ void setup() {
   digitalWrite(LED6, HIGH);
   delay(500);
   digitalWrite(LED1, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(500);                       // wait for a second
-  digitalWrite(LED2, HIGH);    // turn the LED off by making the voltage LOW
+  delay(500);                 // wait for a second
+  digitalWrite(LED2, HIGH);   // turn the LED off by making the voltage LOW
   delay(500);                 // wait for a second
   digitalWrite(LED3, HIGH);
   delay(500);
@@ -36,8 +38,8 @@ void setup() {
   delay(500);
   digitalWrite(LED6, LOW);
   delay(500);
-  digitalWrite(LED1, LOW);   // turn the LED on (HIGH is the voltage level)
-  delay(500);                       // wait for a second
+  digitalWrite(LED1, LOW);    // turn the LED on (HIGH is the voltage level)
+  delay(500);                 // wait for a second
   digitalWrite(LED2, LOW);    // turn the LED off by making the voltage LOW
   delay(500);                 // wait for a second
   digitalWrite(LED3, LOW);
