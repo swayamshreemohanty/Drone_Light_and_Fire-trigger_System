@@ -5,5 +5,7 @@ one can able to trigger a ignitor in the mid-sky, for the reference click the li
 
 It also have a feature i.e, in the time of Emergency/Failsafe of Drone the lights are flashing rapidly, as a warning indicator.
 ex:- If the drone disconnected from it's base station/ ground controller , the LEDs of the drone starts to flash rapidly as a emergency warning.
+
 ..................
+
 You have to set the PWM value of your transmitter in the code, as per your requirement
