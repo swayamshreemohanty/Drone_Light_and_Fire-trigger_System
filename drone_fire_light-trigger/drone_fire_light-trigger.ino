@@ -1,9 +1,7 @@
 //Fire configuration
 #define fire_pulse_in_pin 5
 #define fire_out_pin 8
-
 const int fire_threshold = 1800;
-
 
 //Fire Timer
 // Variable to store the starting time
