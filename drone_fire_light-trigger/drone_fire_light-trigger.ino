@@ -59,7 +59,6 @@ void listenToFire() {
       //Reset the timer
       fire_waiting_startTime = millis();
     }
-    delay(500);
   } else {
     fire_switch_off();
   }
